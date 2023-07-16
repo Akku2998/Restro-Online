@@ -1,7 +1,7 @@
 import React from "react";
 const Frontpage = () => {
   return (
-    <div className="w-full h-screen bg-fff5ec">
+    <div className="w-full h-screen bg-fff5ec m-6">
       <nav className="flex items-center justify-between">
         <div className="flex items-center space-x-16">
           <img src="/logo.svg" alt="image" className="h-16" />

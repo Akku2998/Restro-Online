@@ -61,3 +61,20 @@ export const restaurantsData = [
   },
   // Add more restaurant data as needed
 ];
+
+export const topResturants = [
+  {
+    id: 1,
+    name: "The Wonton",
+    url: "/the-wonton.png",
+    alt: "the-wonton",
+    location: "Mumbai City",
+  },
+  {
+    id: 2,
+    name: "Fire Water",
+    url: "/fire-water.png",
+    alt: "fire-water",
+    location: "Indore",
+  },
+];
