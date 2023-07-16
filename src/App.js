@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Frontpage from './Assesment_Techverse/FrontPage'
+import  Footer  from './Assesment_Techverse/Footer';
 //import UserDetails from './UserProfile/UserDetails';
 //import { Route,Routes } from  'react-router-dom';
 /*import Home from './PublicRoutes/Home';
@@ -18,7 +19,9 @@ function App() {
     <div>
 
       <Frontpage/>
-  
+      <br/>
+      <br/>
+      <Footer/>
       
       {/*<Exercise1/>*/}
     

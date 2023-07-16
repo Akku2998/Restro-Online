@@ -1,5 +1,4 @@
 import React from 'react';
-
 const Frontpage = () => {
   return (
     <div className="w-full h-screen bg-fff5ec">
@@ -13,14 +12,16 @@ const Frontpage = () => {
           <li><a href="#" className="text-blue-900 text-sm">MenuFour</a></li>
         </ul>
         </div>
-        <div className="icon relative z-50 right-20 top-5 ">
-  <a href="#" className="user block bg-white text-black text-xl w-9 h-9 rounded-full text-center">
-    <i className="fal fa-user"></i>
+        <div className="icon relative z-50 right-20 top-5 flex items-center">
+  <a href="#" className="user bg-white text-black text-xl w-9 h-9 rounded-full flex items-center justify-center">
+  <img src="./userpic.png" alt="User" className="w-full h-full rounded-full" />
   </a>
+  <i className="far fa-angle-down text-red-500"></i>
   <a href="#" className="icon-text text-white ml-2">
-    User <i className="fas fa-angle-down ml-1"></i>
+    User
   </a>
 </div>
+
 
       </nav>
       <div className="right-sidebar w-1/3 h-screen absolute right-0 top-0 bg-teal-600"></div>
@@ -34,8 +35,8 @@ const Frontpage = () => {
     </form>
         </div>
         <img src="./dots-bg1.png" alt="Veg" className="veg w-1/4 h-120 absolute right-80 top-40 transform" />
-      <img src="./1pngtreeÔÇölettuce.png" alt="Plate" className="plate w-1/5 absolute right-80 top-10 transform" />
-      <img src="./Pngtree-delicious-food.png" alt="Veg" className="veg w-2/5 absolute right-40 top-40 transform rotate-12" />
+      <img src="./1pngtreeÔÇölettuce.png" alt="veg" className="plate w-1/5 absolute right-80 top-10 transform" />
+      <img src="./Pngtree-delicious-food.png" alt="plate" className="veg w-2/5 absolute right-40 top-40 transform rotate-12" />
       </div>
     </div>
   );
