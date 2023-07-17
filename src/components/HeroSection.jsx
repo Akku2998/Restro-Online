@@ -68,18 +68,18 @@ const Frontpage = () => {
         </div>
         <img
           src="./dots-bg1.png"
-          alt="Veg"
+          alt="dot"
           className="veg w-1/4 h-120 absolute right-80 top-40 transform"
         />
         <img
           src="./1pngtreeÔÇölettuce.png"
           alt="veg"
-          className="plate w-1/5 absolute right-80 top-10 transform"
+          className="plate w-1/5 absolute right-80 top-10 transform z-10"
         />
         <img
           src="./Pngtree-delicious-food.png"
           alt="plate"
-          className="veg w-2/5 absolute right-40 top-40 transform rotate-12"
+          className="veg w-2/5 absolute right-40 top-40 transform rotate-12 z-20"
         />
       </div>
     </div>
