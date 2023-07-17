@@ -17,10 +17,16 @@ const TopResturantSection = () => {
         </div>
       </div>
       <div className="flex justify-start my-8">
+              <div className="relative flex items-center">
         {topResturants.map((restro) => (
           <Card {...restro} />
         ))}
+        <img src="/arrow2.svg" className="ml-16" alt="Arrow" />
+        
+              </div>
+              
       </div>
+      
     </div>
   );
 };

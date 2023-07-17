@@ -4,7 +4,7 @@ import { FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
 function Footer() {
   return (
     <div>
-      <footer className="bg-gray-200 py-8 px-4">
+      <footer className="bg-gray-50 py-8 px-4">
         <div className="flex items-center justify-center">
           <div className="w-1/4">
             <img
@@ -30,15 +30,16 @@ function Footer() {
               </p>
             </div>
             <div className="flex justify-center mt-8">
-              <input
-                type="text"
-                placeholder="Enter your email"
-                className="border border-gray-400 rounded-full px-4 py-2"
-              />
-              <button className="bg-teal-600 text-white font-semibold py-3 px-6 ml-2 rounded-full cursor-pointer">
-                Next
-              </button>
+              <div className="relative flex items-center">
+                <input
+                  type="text"
+                  placeholder="Enter your email"
+                  className="border border-gray-400 rounded-full px-4 py-2 h-8 pr-10"
+                />
+                <img src="/arrow.svg" className="ml-2" alt="Arrow" />
+              </div>
             </div>
+
             <div className="mt-8 flex justify-center">
               <ul className="flex items-center space-x-16">
                 <li>
